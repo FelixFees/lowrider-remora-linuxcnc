@@ -1,0 +1,113 @@
+{
+	"Board": "BIGTREETECH SKR PRO v1.2",
+	"Modules":[
+	{
+	"Thread": "Servo",
+	"Type": "Reset Pin",
+		"Comment":			"Reset pin",
+		"Pin":				"PF_12"
+	},
+	{
+	"Thread": "Base",
+	"Type": "Stepgen",
+		"Comment":			"X - Joint 0 step generator",
+		"Joint Number":		0,
+		"Step Pin": 		"PE_9",
+		"Direction Pin": 	"PF_1",
+		"Enable Pin": 		"PF_2"
+	},
+	{
+	"Thread": "Base",
+	"Type": "Stepgen",
+		"Comment":			"Y1(Y) - Joint 1 step generator",
+		"Joint Number":		1,
+		"Step Pin": 		"PE_11",
+		"Direction Pin": 	"PE_8",
+		"Enable Pin": 		"PD_7"
+	},
+	{
+	"Thread": "Base",
+	"Type": "Stepgen",
+		"Comment":			"E0(Y2) - Joint 2 step generator",
+		"Joint Number":		2,
+		"Step Pin": 		"PE_14",
+		"Direction Pin": 	"PA_0",
+		"Enable Pin": 		"PC_3"
+	},
+	{
+	"Thread": "Base",
+	"Type": "Stepgen",
+		"Comment":			"Z(Z1) - Joint 3 step generator",
+		"Joint Number":		3,
+		"Step Pin": 		"PE_13",
+		"Direction Pin": 	"PC_2",
+		"Enable Pin": 		"PC_0"
+	},
+	{
+	"Thread": "Base",
+	"Type": "Stepgen",
+		"Comment":			"E1(Z2) - Joint 4 step generator",
+		"Joint Number":		4,
+		"Step Pin": 		"PD_15",
+		"Direction Pin": 	"PE_7",
+		"Enable Pin": 		"PA_3"
+	},
+	{
+	"Thread": "Base",
+	"Type": "Stepgen",
+		"Comment":			"E2- Joint 5 step generator",
+		"Joint Number":		5,
+		"Step Pin": 		"PD_13",
+		"Direction Pin": 	"PG_9",
+		"Enable Pin": 		"PF_0"
+	},
+	{
+	"Thread": "Servo",
+	"Type": "Digital Pin",
+		"Comment":			"X Limit",
+		"Pin":				"PB_10",
+		"Mode":				"Input",
+		"Data Bit":			0
+	},
+	{
+	"Thread": "Servo",
+	"Type": "Digital Pin",
+		"Comment":			"Y Limit",
+		"Pin":				"PE_12",
+		"Mode":				"Input",
+		"Data Bit":			1
+	},
+	{
+	"Thread": "Servo",
+	"Type": "Digital Pin",
+		"Comment":			"Z Limit",
+		"Pin":				"PG_8",
+		"Mode":				"Input",
+		"Data Bit":			2
+	},
+	{
+	"Thread": "Servo",
+	"Type": "Digital Pin",
+		"Comment":			"E0 Limit",
+		"Pin":				"PE_15",
+		"Mode":				"Input",
+		"Data Bit":			3
+	},
+	{
+	"Thread": "Servo",
+	"Type": "Digital Pin",
+		"Comment":			"E1 Limit",
+		"Pin":				"PE_10",
+		"Mode":				"Input",
+		"Data Bit":			4
+	},
+	{
+	"Thread": "Servo",
+	"Type": "Digital Pin",
+		"Comment":			"E2 Limit",
+		"Pin":				"PG_5",
+		"Mode":				"Input",
+		"Data Bit":			5
+	}
+	]
+}
